@@ -238,8 +238,9 @@ footer {
   }
 
   header ul {
+    list-style-type: none;
     position:absolute;
-    margin:0;
+    margin:120px;
     padding:8px;
     padding-inline: 14px;
     display: inline-block;
