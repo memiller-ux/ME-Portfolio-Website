@@ -12,23 +12,19 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
-  <body>
-    <div class="wrapper">
-          
+  <header> 
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#resume">Resume</a></li>
             <li><a href="#fad">Fa/D</a></li>
             <li><a href="#courses">Courses</a></li>
           </ul>
-
       </header>
       <section>
-
-      {{ content }}
-
+        <body>
+          {{ content }}
+        </body>
       </section>
-    </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
