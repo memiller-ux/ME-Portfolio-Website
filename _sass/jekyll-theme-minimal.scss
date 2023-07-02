@@ -215,13 +215,11 @@ footer {
     margin:0;
   }
 
-  header, section, footer {
+  header {
     float:left;
+    display: inline;
     position:sticky;
     width:auto;
-  }
-
-  header {
     padding-right:320px;
   }
 
@@ -247,6 +245,7 @@ footer {
   header a:hover {
     background-color:#676767
   }
+
 }
 
 @media print, screen and (max-width: 720px) {
