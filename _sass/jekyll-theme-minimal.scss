@@ -119,8 +119,8 @@ kbd {
 }
 
 header {
-  width:270px;
-  position:fixed;
+  width:fit-content;
+  position: sticky;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -239,8 +239,17 @@ footer {
 
   header ul {
     position:absolute;
-    right:50px;
-    top:52px;
+    margin:0;
+    padding:8px;
+    padding-inline: 14px;
+    display: inline-block;
+    background-color:#082A6A;
+    color: white;
+    text-align: center;
+    
+
+
+    
   }
 }
 
