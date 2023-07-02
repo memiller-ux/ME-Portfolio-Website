@@ -41,7 +41,6 @@ a {
 
 a:hover, a:focus {
   color:#069;
-  font-weight: bold;
 }
 
 a small {
@@ -56,7 +55,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:fit-content;
   margin:0 auto;
 }
 
@@ -185,8 +184,8 @@ strong {
 }
 
 section {
-  width:500px;
-  float:right;
+  width: 1040px;
+  float:none;
   padding-bottom:50px;
 }
 
@@ -239,18 +238,12 @@ footer {
 
   header ul {
     list-style-type: none;
-    position:absolute;
-    margin:120px;
     padding:8px;
     padding-inline: 14px;
     display: block;
     background-color:#082A6A;
     color: white;
     text-align: center;
-  
-    
-
-
     
   }
 }
@@ -265,7 +258,7 @@ footer {
   }
 
   header ul, header p.view {
-    position:static;
+    position: sticky;
   }
 
   pre, code {
